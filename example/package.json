@@ -1,0 +1,22 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Example project using neutrino-preset-egg-typescript",
+  "dependencies": {
+    "egg": "^1.1.0"
+  },
+  "devDependencies": {
+    "neutrino": "^5.5.1",
+    "typescript": "^2.2.1",
+    "neutrino-preset-egg-typescript": "*"
+  },
+  "scripts": {
+    "dev": "egg-bin dev",
+    "test": "egg-bin test",
+    "cov": "egg-bin cov",
+    "start": "neutrino start --use neutrino-preset-egg-typescript",
+    "build": "neutrino build --use neutrino-preset-egg-typescript"
+  },
+  "author": "okoala <dapixp@gmail.com>",
+  "license": "MIT"
+}
